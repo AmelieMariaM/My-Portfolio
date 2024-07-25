@@ -38,7 +38,6 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
-  /* background-color: #55cdfc; */
 }
 
 .nav-links {
@@ -150,7 +149,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 90vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -166,7 +165,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 70vh;
 }
 .section__pic-container {
   display: flex;
@@ -261,7 +260,7 @@ section {
 
 /* ABOUT SECTION */
 
-#about {
+#about #aboutfr {
   position: relative;
 }
 
@@ -287,13 +286,9 @@ section {
 }
 .arrow {
   position: absolute;
-  right: -5rem;
+  right: -1rem;
   bottom: 2.5rem;
 }
-
-/* .text-container {
-  font-size: 20px;
-} */
 
 .details-container {
   padding: 1.5rem;
@@ -317,7 +312,7 @@ section {
 
 /* EXPERIENCE */
 
-#experience {
+#experience #experiencefr {
   position: relative;
 }
 .experience-sub-title {
@@ -349,13 +344,13 @@ article {
   gap: 0.5rem;
 }
 
-article.icon {
+article .icon {
   cursor: default;
 }
 
 /* PROJECTS SECTION */
 
-#projects {
+#projects #experiencefr {
   position: relative;
 }
 
@@ -382,7 +377,7 @@ article.icon {
 
 /* CONTACT */
 
-#contact {
+#contact #contactfr {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -423,7 +418,6 @@ article.icon {
 
 footer {
   height: 26vh;
-  margin: 0 1rem;
   background-color: #f7a8b8;
 }
 
